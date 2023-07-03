@@ -79,6 +79,7 @@ https://sorry-cypress.dev/api#configuration
 | `api.nodeSelector`                    | Set node selector for pods                                                                   | `{}`                        |
 | `api.tolerations`                     | Set tolerations for pods                                                                     | `[]`                        |
 | `api.service.port`                    | Kubernetes service port                                                                      | `4000`                      |
+| `api.service.annotations`             | Kubernetes service annotations                                                               | `{}`                        |
 | `api.readinessProbe.enabled`          | Enables a readiness probe for the pod                                                        | `false`                     |
 | `api.readinessProbe.periodSeconds`    | How often (in seconds) to perform the probe.                                                 | `5`                         |
 | `api.readinessProbe.timeoutSeconds`   | Number of seconds after which the probe times out.                                           | `3`                         |
@@ -117,6 +118,7 @@ https://sorry-cypress.dev/dashboard#configuration
 | `dashboard.nodeSelector`                                  | Set node selector for pods                                                                                 | `{}`                              |
 | `dashboard.tolerations`                                   | Set tolerations for pods                                                                                   | `[]`                              |
 | `dashboard.service.port`                                  | Kubernetes service port                                                                                    | `4000`                            |
+| `dashboard.service.annotations`                           | Kubernetes service annotations                                                                             | `{}`                        |
 | `dashboard.ingress.enabled`                               | Flag to define if the dashboard service ingress is enabled                                                 | `true`                            |
 | `dashboard.ingress.ingressClassName`                      | The IngressClass that should be used to implement this Ingress                                             | `nginx`                           |
 | `dashboard.ingress.labels`                                | Ingress labels                                                                                             | `{}`                              |
@@ -157,6 +159,7 @@ https://sorry-cypress.dev/director/configuration
 | `director.nodeSelector`                           | Set node selector for pods                                                                                                                                                   | `{}`                             |
 | `director.tolerations`                            | Set tolerations for pods                                                                                                                                                     | `[]`                             |
 | `director.service.port`                           | Kubernetes service port                                                                                                                                                      | `4000`                           |
+| `director.service.annotations`                    | Kubernetes service annotations                                                               | `{}`                        |
 | `director.ingress.enabled`                        | Flag to define if the director service ingress is enabled                                                                                                                    | `true`                           |
 | `director.ingress.ingressClassName`               | The IngressClass that should be used to implement this Ingress                                                                                                               | `nginx`                           |
 | `director.ingress.labels`                         | Ingress labels                                                                                                                                                               | `{}`                             |
