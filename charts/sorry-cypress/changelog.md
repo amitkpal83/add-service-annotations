@@ -1,3 +1,6 @@
+# 1.16
+- Added annotations in respective service.yaml for director, api and dashboard. 
+  
 # 1.15
 - Set `runCleaner.tolerations` values
 
